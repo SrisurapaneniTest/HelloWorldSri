@@ -13,10 +13,10 @@ namespace HelloWorld.Controllers
 
       private readonly ILogger _logger;
 
-      public HelloWorldController()
-      {
-         _logger = new ConsoleLogger();
-      }
+      //public HelloWorldController()
+      //{
+      //   _logger = new ConsoleLogger();
+      //}
 
       // Need to rework when implemented Dependency Injection
       public HelloWorldController(ILogger logger)

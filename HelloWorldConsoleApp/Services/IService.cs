@@ -1,13 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 
 namespace HelloWorldConsoleApp.Services
 {
+   /// <summary>
+   /// IService Interface - Provides Service methods
+   /// </summary>
    public interface IService
    {
-      Task<string> GetMessage();
+      /// <summary>
+      /// GetMessage
+      /// </summary>
+      /// <param name="message">string message</param>
+      /// <returns></returns>
+      Task<string> GetMessage(string message);
    }
 }
