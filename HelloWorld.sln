@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\He
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.Tests", "HelloWorld.Tests\HelloWorld.Tests.csproj", "{A91C0FBA-FC75-44F5-A7B0-92BB4E18A2DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{41D41553-F015-4643-B123-0EB5BBD246C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorldConsoleApp", "HelloWorldConsoleApp\HelloWorldConsoleApp.csproj", "{8415DCFE-F7FB-46FA-8548-220A752FD0AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{A91C0FBA-FC75-44F5-A7B0-92BB4E18A2DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A91C0FBA-FC75-44F5-A7B0-92BB4E18A2DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A91C0FBA-FC75-44F5-A7B0-92BB4E18A2DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41D41553-F015-4643-B123-0EB5BBD246C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41D41553-F015-4643-B123-0EB5BBD246C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41D41553-F015-4643-B123-0EB5BBD246C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41D41553-F015-4643-B123-0EB5BBD246C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8415DCFE-F7FB-46FA-8548-220A752FD0AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8415DCFE-F7FB-46FA-8548-220A752FD0AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8415DCFE-F7FB-46FA-8548-220A752FD0AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8415DCFE-F7FB-46FA-8548-220A752FD0AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
