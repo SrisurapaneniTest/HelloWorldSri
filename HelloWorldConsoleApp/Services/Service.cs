@@ -14,7 +14,7 @@ namespace HelloWorldConsoleApp.Services
       /// <param name="message">string message</param>
       /// <returns></returns>
       public async Task<string> GetMessage(string message)
-      {              
+      {
          var httpClient = new HttpClient();
          var Url = "http://localhost:57533/api/HelloWorld?message=" + message;
 
@@ -25,7 +25,7 @@ namespace HelloWorldConsoleApp.Services
          }
 
          return message;
-         
+
       }
    }
 }

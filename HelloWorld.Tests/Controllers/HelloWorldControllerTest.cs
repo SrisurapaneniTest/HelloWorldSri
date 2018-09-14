@@ -9,21 +9,21 @@ namespace HelloWorld.Tests.Controllers
    [TestClass]
    public class HelloWorldControllerTest
    {
-      ///// <summary>
-      ///// Test case for Get Method
-      ///// </summary>
-      //[TestMethod]
-      //public void Get()
-      //{
-      //   // Arrange
-      //   HelloWorldController controller = new HelloWorldController();
+      /// <summary>
+      /// Test case for Get Method
+      /// </summary>
+      [TestMethod]
+      public void Get()
+      {
+         // Arrange
+         HelloWorldController controller = new HelloWorldController();
 
-      //   // Act
-      //   string result = controller.Get("Hello World from TestMethods");
+         // Act
+         string result = controller.Get("Hello World from TestMethods");
 
-      //   // Assert
-      //   Assert.IsNotNull(result);
-      //   Assert.AreEqual("Hello World from TestMethods", result);
-      //}
+         // Assert
+         Assert.IsNotNull(result);
+         Assert.AreEqual("Hello World from TestMethods", result);
+      }
    }
 }
