@@ -15,16 +15,7 @@ namespace HelloWorld.Controllers
       #endregion
 
       #region Contructor
-
-      /// <summary>
-      /// Default constructor
-      /// </summary>
-      public HelloWorldController()
-      {
-         this._logger = new ConsoleLogger();
-      }
-
-
+     
       /// <summary>
       /// Parameterized constructor
       /// </summary>
